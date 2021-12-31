@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Whack a mole</title>
+		<script defer src="maulwurf.js"></script>
+		<style>
+			[name=huegel]{width:90px;position:absolute;top:5px;background-color:#754119;border-radius:50%;height:90px}
+			[name=maulwurf]{width:50px;left:20px;top:20px;border-radius:50%;background-color:black;visibility:hidden;height:50px;position:absolute}
+			#score{position:absolute;top:5px;left:5px;font-size:30px;}
+			body{width:100%;height:100%;background-color:#A6BE3D}
+		</style>
+	</head>
+	<body>
+		<center>
+			<h1>Whack a mole</h1>
+			<div style="width:700px;position:relative;height:100px;">
+				<div name="huegel"><div name="maulwurf"></div></div>
+				<div name="huegel"><div name="maulwurf"></div></div>
+				<div name="huegel"><div name="maulwurf"></div></div>
+				<div name="huegel"><div name="maulwurf"></div></div>
+				<div name="huegel"><div name="maulwurf"></div></div>
+				<div name="huegel"><div name="maulwurf"></div></div>
+				<div name="huegel"><div name="maulwurf"></div></div>
+			</div>
+			<span id="score"></span>
+		</center>
+	</body>
+</html>
